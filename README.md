@@ -1,4 +1,4 @@
-# Procedural-Animation
+# Procedural Animation
 
 # Examples
 
