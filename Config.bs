@@ -1,0 +1,30 @@
+~ Esoteric Build System
+~
+~ Main File Filepath
+$Source/Main.cpp
+~ Output Directory
+!Bin/Debug/
+~ Output File
+@ProceduralAnimation
+~ Classes
+#
+Source/Lib/stb_image.cpp
+Source/Shader/Shader.cpp
+Source/Buffer/ElementBuffer.cpp
+Source/Buffer/VertexArray.cpp
+Source/Buffer/VertexBuffer.cpp
+Source/Model/Texture.cpp
+#
+~ Include Directories
+*
+Source/Lib/
+Source/Shader/
+Source/Buffer/
+Source/Model/
+*
+~ Linking
+&
+glfw3
+glew32
+opengl32
+&
